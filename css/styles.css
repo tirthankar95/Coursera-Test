@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.outerMostUL li
+{
+	list-style: none;
+	clear: left;
+}
+div > a
+{
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+	border: 2px dashed black;
+	background-color: yellowgreen;
+	display: block;
+	width: 200px;
+	margin: 2px;
+	position: relative;
+	top: 10px;
+}
+div > a:hover, div > a:active
+{
+	background-color: greenyellow;
+	font-weight: 200;
+}
+.problems > div
+{
+	margin: 5px;
+	padding: 5px;
+	overflow: auto;
+	clear: left;
+}
+.problems > div:nth-child(even)
+{
+	background-color:black;
+	color: white;
+}
+.problems p
+{
+	width: 50%;
+	float: left;
+	border-right: 2px dashed black;
+	font-size: 16px;
+	padding: 2px;
+}
