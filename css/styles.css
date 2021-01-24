@@ -123,7 +123,6 @@ body
   .navbar-brand p img { /* Star-K */
     height: 20px;
   }
-
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
@@ -131,7 +130,7 @@ body
     font-size: 1em;
     margin-right: 5px;
   }
-
+/***********************************************/
   #call-btn > a {
     font-size: 1.5em;
     display: block;
@@ -148,5 +147,4 @@ body
     text-transform: uppercase;
   }
   /* End Header */
-
 }
