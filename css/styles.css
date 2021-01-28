@@ -136,9 +136,6 @@ body
   overflow: hidden;
   margin: 0 auto 15px
 }
-.category-tile img {
-  width: 100%;
-}
 .category-tile span {
   position: absolute;
   bottom: 0;
