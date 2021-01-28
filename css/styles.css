@@ -203,6 +203,9 @@ h3.menu-item-title {
   font-size: .9em;
   font-style: italic;
 }
+.category-tile img{
+  width: 100%;
+}
 /* END SINGLE CATEGORY PAGE */
 
 /* FOOTER */
