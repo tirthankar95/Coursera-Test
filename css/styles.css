@@ -55,7 +55,7 @@ body
   color: #083ec7;
   text-align: center;
 }
-#nav-list-active a{
+#cutlery-active a,#home-active a{
   background: #bbfcfb;
 }
 #nav-list a:hover {
@@ -135,6 +135,9 @@ body
   box-shadow: 0 0 75px #121559;
   overflow: hidden;
   margin: 0 auto 15px
+}
+.category-tile img {
+  width: 100%;
 }
 .category-tile span {
   position: absolute;
@@ -296,7 +299,6 @@ h3.menu-item-title {
     font-size: 1em;
     margin-right: 5px;
   }
-/***********************************************/
   #call-btn > a {
     font-size: 1.5em;
     display: block;
